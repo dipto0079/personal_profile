@@ -47,9 +47,9 @@
                 <li class="nav-item">
                     <a href="#education" class="nav-link">Education</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#work" class="nav-link">Work</a>
-                </li>
+{{--                <li class="nav-item">--}}
+{{--                    <a href="#work" class="nav-link">Work</a>--}}
+{{--                </li>--}}
 
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
@@ -75,6 +75,7 @@
                                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/sudipto-biswas-124410121"><i class="mdi mdi-linkedin"></i></a></li>
                                 <li class="list-inline-item"><a href="https://twitter.com/Sudipto_biswas0"><i class="mdi mdi-twitter"></i></a></li>
                                 <li class="list-inline-item"><a href="https://gitlab.com/sudipto0097"><i class="mdi mdi-github-box"></i></a></li>
+                                <li class="list-inline-item"><a href="https://stackoverflow.com/users/17133454/sudipto-biswas"><i class="mdi mdi-stackoverflow"></i></a></li>
                             </ul>
                             <div class="header_btn">
                                 <a href="https://drive.google.com/file/d/1UlHTgNP4iobdBmCe6_E3uUtV0ecLKWxe/view?usp=sharing" target="_blank" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>

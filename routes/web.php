@@ -25,3 +25,5 @@ Route::get('/new_login', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/Home-Layout', [App\Http\Controllers\HomeLayoutController::class, 'index'])->name('home.layout');
