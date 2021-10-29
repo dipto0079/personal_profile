@@ -13,7 +13,7 @@
                     <div class="preview">
                         <div class="mt-3">
                             <label>Rounded</label>
-                            <input type="text" class="input w-full rounded-full border mt-2" placeholder="Rounded">
+                            <input type="text" class="input w-full rounded-full border mt-2" name="settings[name]" value="{{getsettings('name')}}">
                         </div>
 
 

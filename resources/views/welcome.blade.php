@@ -334,19 +334,19 @@
                             <div class="col-lg-6">
                                 <div class="form-group mt-2">
                                     <label for="name" class="font-weight-bold">Name</label>
-                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="">
+                                    <input autocomplete="off" name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group mt-2">
                                     <label for="email" class="font-weight-bold">Email address</label>
-                                    <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." required="">
+                                    <input autocomplete="off" name="email" id="email" type="email" class="form-control" placeholder="Your email..." required="">
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group mt-2">
                                     <label for="subject" class="font-weight-bold">Subject</label>
-                                    <input type="text" class="form-control" id="subject" placeholder="Your Subject.." required="" />
+                                    <input autocomplete="off" type="text" class="form-control" id="subject" placeholder="Your Subject.." required="" />
                                 </div>
                             </div>
                         </div>
@@ -354,7 +354,7 @@
                             <div class="col-lg-12">
                                 <div class="form-group mt-2">
                                     <label for="comments" class="font-weight-bold">Message</label>
-                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required=""></textarea>
+                                    <textarea autocomplete="off" name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required=""></textarea>
                                 </div>
                             </div>
                         </div>
@@ -425,6 +425,15 @@
             backDelay: 3000
         });
     });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LCWYQB73J4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LCWYQB73J4');
 </script>
 </body>
 
